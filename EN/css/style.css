@@ -1,0 +1,39 @@
+.slider {
+  margin: 0 auto;
+}
+
+.swiper-container {
+  padding-bottom: 20px;
+}
+
+.swiper-scrollbar {
+  background: #d6d6d6;
+}
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  position: static;
+  height: 6px;
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+  border-radius: 2px;
+  height: 5px;
+  width: 200px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.swiper-scrollbar-drag {
+  background-color: #cbc8c2;
+}
+.swiper-wrapper img {
+  width: 100%;
+}
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  background-color: #4a4946;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  /* position: relative; */
+  /* top: -50% !important; */
+}
